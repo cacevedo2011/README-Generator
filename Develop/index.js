@@ -4,7 +4,7 @@ const generatePage = require('../src/readme-template.js');
 
 const inquirer = require("inquirer");
 
-const [username, email, title, description, license, install, test, message, contribution] = questions;
+// const [username, email, title, description, license, install, test, message, contribution] = questions;
 
 
 // array of questions for user
@@ -66,7 +66,7 @@ const questions = () => {
             },
 
 ]);
-
+}
 // function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, function (err) {
