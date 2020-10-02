@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const generatePage = require('../src/readme-template.js');
+const generatePage = require('./src/readme-template.js');
 
 const inquirer = require("inquirer");
 
@@ -65,8 +65,15 @@ const questions = () => {
                 message: "What does the iser need to know about contributing to the repo",
             },
 
-]);
-}
+    ]);
+};
+
+questions().then((answers) => {
+    console.log(answers);
+  
+    var template = markDown(answers);
+    writeToFile("index.md", template);
+  });
 // function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, function (err) {
