@@ -2,12 +2,14 @@ const fs = require('fs');
 
 const generatePage = require('../src/readme-template.js');
 
+const inquirer = require("inquirer");
+
 const [username, email, title, description, license, install, test, message, contribution] = questions;
 
+
 // array of questions for user
-const questions = require('inquirer') [
-        /* Pass your questions in here */
-         inquirer.prompt([
+const questions = () => {
+    return inquirer.prompt([
 
             {type: "input",
                 name: "username",
@@ -66,12 +68,14 @@ const questions = require('inquirer') [
 ]);
 
 // function to write README file
-fs.writeFile('index.md', generatePage(username, email, title, description, license, install, test, message, contribution), => err {
-    if (err) throw err;
-
-    console.log('Portfolio complete! Check out index.html to see the output!');
-});
-
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, function (err) {
+      if (err) {
+        return console.log(err);
+      }
+      return console.log("success");
+    });
+  }
 // // function to initialize program
 // function init() {
 
