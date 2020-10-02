@@ -1,15 +1,13 @@
 const fs = require('fs');
 
-const generatePage = require('./src/readme-teplate.js');
+const generatePage = require('../src/readme-template.js');
 
-const profileDataArgs = process.argv.slice(2);
-
-const [username, email, title, description, license, install, test, message, contribution] = profileDataArgs;
+const [username, email, title, description, license, install, test, message, contribution] = questions;
 
 // array of questions for user
-const questions = () => [
+const questions = require('inquirer') [
         /* Pass your questions in here */
-        return inquirer.prompt([
+         inquirer.prompt([
 
             {type: "input",
                 name: "username",
@@ -74,10 +72,10 @@ fs.writeFile('index.md', generatePage(username, email, title, description, licen
     console.log('Portfolio complete! Check out index.html to see the output!');
 });
 
-// function to initialize program
-function init() {
+// // function to initialize program
+// function init() {
 
-}
+// }
 
-// function call to initialize program
-init();
+// // function call to initialize program
+// init();

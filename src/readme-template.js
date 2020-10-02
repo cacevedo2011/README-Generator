@@ -10,7 +10,7 @@ const generatePage =
         contribution) => {
     return `
     # ${title}
-    ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
+    ${license}![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
 
     ## Description
 
