@@ -22,8 +22,6 @@ Write the README for you faster
 
 * [Test](#test)
 
-* [Questions](#questions)
-
 * [Contact](#contact)
 
 ## Installation
@@ -48,10 +46,6 @@ read the contribute.md
 To run the tests, run the following command:
 
 npm test
-
-## Questions
-
-
 
 ## Contact
 

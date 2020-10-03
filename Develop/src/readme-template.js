@@ -23,8 +23,6 @@ ${data.description}
 
 * [Test](#test)
 
-* [Questions](#questions)
-
 * [Contact](#contact)
 
 ## Installation
@@ -49,10 +47,6 @@ ${data.contribution}
 To run the tests, run the following command:
 
 ${data.test}
-
-## Questions
-
-
 
 ## Contact
 
