@@ -1,15 +1,10 @@
-const generatePage = (data) => {
-return `# ${data.title}
+# test
 
-${data.license}
-
-###Author
-
-${data.username}
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0),[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC),[![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
 
 ## Description
 
-${data.description}
+2
 
 ## Table of Contents
 
@@ -30,28 +25,23 @@ ${data.description}
 To Install necessary dependencies, run the following command:
     
 
-${data.install}
+test3
 
 
 ## Usage
 
-${data.message}
+etsg
 
 ## License
 
 ## Contributing
 
-${data.contribution}
+djkhas
 
 ## Test
 
 To run the tests, run the following command:
 
 
-${data.test}
+tetd
 
-`;
-
-};
-
-module.exports = generatePage;
