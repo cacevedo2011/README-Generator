@@ -1,10 +1,16 @@
 # README-Generator
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0),[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC),[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+## Created by:
+
+### Cristian Acevedo
+
+## License
+
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0),[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT),[![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)
 
 ## Description
 
-This is a fast way to write your README's
+Write the README for you faster
 
 ## Table of Contents
 
@@ -12,11 +18,11 @@ This is a fast way to write your README's
 
 * [Usage](#usage)
 
-* [License](#license)
-
 * [Contributing](#contributing)
 
 * [Test](#test)
+
+* [Questions](#questions)
 
 * [Contact](#contact)
 
@@ -24,17 +30,18 @@ This is a fast way to write your README's
 
 To Install necessary dependencies, run the following command:  
 
-npm i
+_npm i_
 
 ## Usage
 
-The code works
+The code Works!!!
 
-## License
 
 ## Contributing
 
-read the contribution.md
+If you want to know about contributing to the repo:
+
+read the contribute.md
 
 ## Test
 
@@ -44,9 +51,11 @@ npm test
 
 ## Questions
 
+
+
 ## Contact
 
 Email: cristianacevedo2011@gmail.com
 
-https://github.io/cacevedo2011
+Github Website: https://github.com/cacevedo2011/
 

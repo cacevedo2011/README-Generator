@@ -1,6 +1,12 @@
 const generatePage = (data) => {
 return `# ${data.title}
 
+## Created by:
+
+### ${data.name}
+
+## License
+
 ${data.license}
 
 ## Description
@@ -13,11 +19,11 @@ ${data.description}
 
 * [Usage](#usage)
 
-* [License](#license)
-
 * [Contributing](#contributing)
 
 * [Test](#test)
+
+* [Questions](#questions)
 
 * [Contact](#contact)
 
@@ -25,15 +31,16 @@ ${data.description}
 
 To Install necessary dependencies, run the following command:  
 
-${data.install}
+_${data.install}_
 
 ## Usage
 
 ${data.message}
 
-## License
 
 ## Contributing
+
+If you want to know about contributing to the repo:
 
 ${data.contribution}
 
@@ -45,11 +52,13 @@ ${data.test}
 
 ## Questions
 
+
+
 ## Contact
 
 Email: ${data.email}
 
-https://github.io/${data.username}
+Github Website: https://github.com/${data.username}/
 
 `;
 
