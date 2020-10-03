@@ -3,10 +3,6 @@ return `# ${data.title}
 
 ${data.license}
 
-###Author
-
-${data.username}
-
 ## Description
 
 ${data.description}
@@ -23,15 +19,13 @@ ${data.description}
 
 * [Test](#test)
 
-* [Questions](#questions)
+* [Contact](#contact)
 
 ## Installation
 
-To Install necessary dependencies, run the following command:
-    
+To Install necessary dependencies, run the following command:  
 
 ${data.install}
-
 
 ## Usage
 
@@ -47,8 +41,15 @@ ${data.contribution}
 
 To run the tests, run the following command:
 
-
 ${data.test}
+
+## Questions
+
+## Contact
+
+Email: ${data.email}
+
+https://github.io/${data.username}
 
 `;
 

@@ -1,10 +1,10 @@
-# test
+# README-Generator
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0),[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC),[![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0),[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC),[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
 ## Description
 
-2
+This is a fast way to write your README's
 
 ## Table of Contents
 
@@ -18,30 +18,35 @@
 
 * [Test](#test)
 
-* [Questions](#questions)
+* [Contact](#contact)
 
 ## Installation
 
-To Install necessary dependencies, run the following command:
-    
+To Install necessary dependencies, run the following command:  
 
-test3
-
+npm i
 
 ## Usage
 
-etsg
+The code works
 
 ## License
 
 ## Contributing
 
-djkhas
+read the contribution.md
 
 ## Test
 
 To run the tests, run the following command:
 
+npm test
 
-tetd
+## Questions
+
+## Contact
+
+Email: cristianacevedo2011@gmail.com
+
+https://github.io/cacevedo2011
 
