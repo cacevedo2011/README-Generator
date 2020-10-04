@@ -6,9 +6,6 @@ const generatePage = require('./src/readme-template.js');
 
 const inquirer = require("inquirer");
 
-
-
-
 // array of questions for user
 const questions = () => {
     return inquirer.prompt([
